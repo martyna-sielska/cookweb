@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CookWeb</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Satisfy&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body class="gingham">
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo" onclick="showGallery()">CookWeb</span>
+      <ul class="nav-links">
+        <li><a href="#" onclick="showGallery();return false;" data-i18n="navRecipes">Recipes</a></li>
+      </ul>
+      <div class="nav-right"></div>
+    </div>
+  </nav>
+
+  <!-- ══════════ GALLERY VIEW ══════════ -->
+  <div id="galleryView" class="view active">
+
+    <section class="gallery-section">
+      <div class="recipes-grid" id="recipesGrid"></div>
+    </section>
+
+  </div>
+
+  <!-- ══════════ RECIPE DETAIL VIEW ══════════ -->
+  <div id="recipeView" class="view">
+    <div class="recipe-bg">
+      <div class="recipe-paper" id="recipeContent"></div>
+    </div>
+  </div>
+
+  <!-- ══════════ FAVORITES VIEW ══════════ -->
+  <div id="favoritesView" class="view">
+    <header class="page-header">
+      <div class="title-card">
+        <h1 class="site-title" style="font-size:clamp(2.2rem,8vw,4rem)" data-i18n="favTitle">My Favorites</h1>
+        <p class="site-tagline" data-i18n="favTagline">Your saved recipes</p>
+      </div>
+    </header>
+    <section class="gallery-section">
+      <div class="recipes-grid" id="favGrid">
+        <p class="empty-msg" id="emptyFav" data-i18n="emptyFav">No saved recipes yet.<br>Click the heart on any recipe to save it here.</p>
+      </div>
+    </section>
+  </div>
+
+  <div class="toast" id="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>
