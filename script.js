@@ -58,7 +58,7 @@ const recipes = {
     title:"Pancakes",
     image:"assets/pancakes.png",
     time:"25m", servings:"8–10",
-    description:"Cloud-soft stacks with maple syrup, fresh berries, and a dusting of powdered sugar.",
+    description:"Pancakes with dusting of powdered sugar.",
     ingredients:[
       "1¼ cup flour","1 egg",
       "1¼ cup buttermilk","¼ cup icing sugar",
@@ -98,45 +98,44 @@ const recipes = {
     id:4,
     title:"Oatmeal Cookies",
     image:"assets/oatmealcookies.png",
-    time:"30m", servings:24,
-    description:"Chewy, golden cookies with rolled oats, raisins, and warm cinnamon spice.",
+    time:"10 min", bakeTime:"20 min", servings:20,
+    description:"Golden and crispy oatmeal cookies.",
     ingredients:[
-      "1 cup unsalted butter, softened","1 cup packed brown sugar",
-      "½ cup granulated sugar","2 large eggs","2 tsp vanilla extract",
-      "1½ cups all-purpose flour","1 tsp baking soda",
-      "1 tsp ground cinnamon","½ tsp salt","3 cups rolled oats","1 cup raisins"
+      "1½ cup oatmeal (200 g)","½ stick soft butter (100 g)",
+      "4 tbsp sugar (60 g)","2 medium eggs",
+      "1 leveled tsp baking powder",
+      "2 heaped tbsp all-purpose flour (up to 45 g)"
     ],
     steps:[
-      "Preheat oven to 350°F (175°C). Line baking sheets with parchment paper.",
-      "Beat butter and both sugars until light and fluffy, about 3 minutes.",
-      "Add eggs and vanilla; beat until combined.",
-      "Mix in flour, baking soda, cinnamon, and salt until just incorporated.",
-      "Stir in oats and raisins by hand.",
-      "Drop rounded tablespoons onto prepared sheets, spacing 2 inches apart.",
-      "Bake 10–12 minutes until edges are golden. Cool on the sheet 5 minutes before moving."
-    ]
+      "In the bowl mix 1½ cup of oatmeals, 4 tablespoons of sugar, 2 heaped tablespoons of all-purpose flour and leveled teaspoon of baking powder (you can also add a little pinch of cinnamon).",
+      "To the same bowl add 2 eggs and half a stick of soft butter. Mix until thick.",
+      "Line a baking sheet with parchment paper. Scoop walnut-sized portions of the dough, roll them into balls, and flatten them onto the paper.",
+      "Place on the middle rack and bake at 180°C (top/bottom heat) for 15–20 minutes, until golden brown."
+    ],
+    note:"The thinner the cookies, the crispier they will be."
   },
   5: {
     id:5,
-    title:"Smoothie",
-    image:"assets/smoothie.png",
-    time:"10m", servings:2,
-    description:"Vibrant blended smoothie with strawberries, banana, mango, and creamy yogurt.",
+    title:"Banana Bread",
+    image:"assets/bananabread.png",
+    time:"15 min", bakeTime:"55 min", servings:8,
+    description:"Moist and tender banana bread with a golden crust — perfect for overripe bananas.",
     ingredients:[
-      "1 cup fresh strawberries","1 ripe banana, frozen",
-      "½ cup frozen mango chunks","½ cup plain Greek yogurt",
-      "1 cup almond milk","1 tbsp honey",
-      "Handful of ice","Fresh mint to garnish"
+      "3 very ripe bananas","1½ cups all-purpose flour (190 g)",
+      "¾ cup sugar (150 g)","2 eggs",
+      "⅓ cup melted butter (75 g)","1 tsp baking soda",
+      "Pinch of salt","1 tsp vanilla extract"
     ],
     steps:[
-      "Wash and hull the strawberries. Slice the frozen banana.",
-      "Add strawberries, banana, mango, and yogurt to the blender.",
-      "Pour in almond milk and add honey.",
-      "Add a handful of ice for extra thickness.",
-      "Blend on high for 60 seconds until completely smooth.",
-      "Taste and adjust sweetness with more honey if desired.",
-      "Pour into glasses, garnish with mint and fresh berries. Serve immediately."
-    ]
+      "Preheat oven to 175°C. Grease a loaf pan with butter.",
+      "Mash the bananas with a fork until smooth.",
+      "Mix in melted butter, sugar, eggs, and vanilla extract.",
+      "Add flour, baking soda, and salt. Stir until just combined — do not overmix.",
+      "Pour the batter into the prepared loaf pan.",
+      "Bake for 50–60 minutes, until a toothpick inserted in the center comes out clean.",
+      "Cool in the pan for 10 minutes, then turn out onto a wire rack."
+    ],
+    note:"The riper the bananas, the sweeter and more flavourful the bread."
   },
   6: {
     id:6,
